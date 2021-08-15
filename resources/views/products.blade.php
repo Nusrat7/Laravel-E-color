@@ -1,4 +1,4 @@
-welcome to product page
+
 
 
 
@@ -19,7 +19,7 @@ welcome to product page
    
     <div class="carousel-inner">
     @foreach($products as $item)
-    <div class="item {{$item['id']==1?'active':''}}">
+    <div class="item {{$item['id']==11?'active':''}}">
     <a href="detail/{{$item['id']}}">
       <img class="slider-img" src="{{$item['gallery']}}" >
       <div class="carousel-caption slider-text">

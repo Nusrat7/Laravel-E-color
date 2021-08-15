@@ -25,8 +25,9 @@ if(Session::has('user'))
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
         <span class="icon-bar"></span>
-          <li ><a class="navbar-brand" href="/">      Home</a></li>
-          <li><a href="/myorders">Orders</a></li>
+        
+          <li ><a class="navbar-brand" href="/">Home</a></li>
+          <li><a class="navbar-brand" href="/myorders">Orders</a></li>
         </ul>
         <form action="/search" class="navbar-form navbar-left">
           <div class="form-group">
@@ -35,7 +36,8 @@ if(Session::has('user'))
           <button type="submit" class="btn btn-default">Search</button>
         </form>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/cartlist">cart({{$total}})</a></li>
+       
+          <li><a href="/cartlist"><i style="font-size:24px" class="fa">&#xf07a;</i>({{$total}})</a></li>
           @if(Session::has('user'))
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{Session::get('user')['name']}}
@@ -46,8 +48,10 @@ if(Session::has('user'))
             </ul>
           </li>
           @else
-          <li><a href="/login">Login</a></li>
-          <li><a href="/signup">Signup</a></li>
+          <li><a href="/login"><button type="button" class="btn btn-dark">Login</button></a></li>
+          <li><a href="/signup"><button type="button" class="btn btn-dark">Signup</button></a></li>
+         
+          
           @endif
         </ul>
       </div><!-- /.navbar-collapse -->

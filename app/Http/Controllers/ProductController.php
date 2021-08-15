@@ -114,6 +114,41 @@ class ProductController extends Controller
         ->get();
         return view('myorders',['orders'=>$orders]);
         
+
+
+    }
+    // admin panel product show related
+    function show()
+    {
+        $data= product::all();
+       return view("productshow",['products'=>$data]);
+       //return product::all();
+    }
+    // delete product
+    public function destroy($id)
+    {
+        $post=product::find($id);
+        $post->delete();
+        return redirect('/productshow');
+    }
+
+    //UPDATE
+   
+    public function edit($id)
+    {
+        $posts=product::find($id);
+        
+        return view('editproduct', ['product'=>$posts]);
+        
+    }
+    public function update(Request $request, $id)
+    {
+        $posts=product::find($id);
+        $posts->name=$request->get('name');
+        $posts->price=$request->get('price');
+        $posts->save();
+        return redirect('/productshow');
+    
     }
 
 

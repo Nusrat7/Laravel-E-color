@@ -18,6 +18,15 @@ use App\Http\Controllers\ProductController;
 // Route::get('/', function () {
 //     return view('login');
 // });
+//admin
+
+Route::view("/admin",'admin');
+Route::get("/productshow",[ProductController::class,'show']);
+Route::get('delete/{id}',[ProductController::class,'destroy']);
+Route::get('edit/{id}',[ProductController::class,'edit']);
+Route::post('update/{id}',[ProductController::class,'update']);
+
+//customer
 Route::post("/login",[UserController::class,'login']);
 Route::get("/login",[UserController::class,'loginpage']);
 Route::view("/signup",'signup');

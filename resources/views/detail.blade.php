@@ -1,4 +1,4 @@
-welcome to product Details page!
+
 
 
 

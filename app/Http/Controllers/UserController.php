@@ -41,4 +41,8 @@ class UserController extends Controller
         $user->save();
         return redirect('/login');
     }
+    function admin()
+    {
+        return view("admin");
+    }
 }
