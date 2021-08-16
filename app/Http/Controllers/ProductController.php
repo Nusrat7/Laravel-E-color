@@ -151,5 +151,36 @@ class ProductController extends Controller
     
     }
 
+    //add product
+    public function inserTable()
+    {
+       return view("addproduct");
+      
+    }
+
+    public function inserData(Request $request)
+    {
+        $imagePath='';
+        $posts=new product();
+        $posts->name=$request->input('name');
+        $posts->price=$request->input('price');
+        $posts->category=$request->input('category');
+        $posts->description=$request->input('description');
+
+        if($request->hasfile('gallery')){
+            $file=$request->file('gallery');
+            $extension=$file->getClientOriginalExtension(); //get image wxtension
+            $filename=time().'.'.$extension;
+            $path='uploads/highlights/';
+            $file->move($path,$filename);
+            $imagePath=$path.$filename;
+            
+        } 
+        $posts->gallery=$imagePath;
+        $posts->save();
+        
+        return redirect('/addproduct');
+    }
+
 
 }

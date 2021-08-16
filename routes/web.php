@@ -21,6 +21,10 @@ use App\Http\Controllers\ProductController;
 //admin
 
 Route::view("/admin",'admin');
+//product input
+Route::get("/addproduct",[ProductController::class,'inserTable']);
+Route::post("/addimage",[ProductController::class,'inserData'])->name('addimage');
+
 Route::get("/productshow",[ProductController::class,'show']);
 Route::get('delete/{id}',[ProductController::class,'destroy']);
 Route::get('edit/{id}',[ProductController::class,'edit']);
