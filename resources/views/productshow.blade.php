@@ -9,17 +9,18 @@
 <div class="container">
 <table class="table table-bordered shadow text-center table -striped">
 <br> <br> <br> <br>
+<div class="shadow-lg p-3 mb-5 bg-body rounded">
 <center>
-<h2>Product detais:</h2>
+<h2>Product Detais:</h2>
 </center>
-<br> <br> <br> <br> <br>
-
+<br> <br> 
+</div>
   <tr>
     <th></th>
     <th> Product Name</th>
     <th> Product Price</th>
     <th> Delete Product</th>
-    <th>Edit details</th>
+    <th>Edit Details</th>
 
 
   </tr>

@@ -1,17 +1,20 @@
-Result for your product
 
-<a href="/logout">Logout</a>
+
+
 
 @extends('master')
 @section("content")
 <div class="custom-product">
     <div class="col-sm-4"> 
-    <a href="#">Filter Product</a>
+  
 </div>
 <div class="col-sm-4">
      <div class="trending-wrapper">
+     <div class="trending">
      <h2> Result for product</h2>
+</div>
      <br> <br>
+     
   @foreach($products as $item)
   <div class="searched-item">
   <a href="detail/{{$item['id']}}">

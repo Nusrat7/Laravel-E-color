@@ -4,15 +4,19 @@
 
 @extends('master')
 @section("content")
+<div class="shadow-lg p-3 mb-5 bg-body rounded">
 <div class="custom-product" >
     <div class="col-sm-4"> 
    
 </div>
 <div class="col-sm-20" style="background-color:#D8D8D0">
      <div class="trending-wrapper">
+     <div class="shadow-lg p-3 mb-5 bg-body rounded">
+     <div class="trending">
      <h2 > My Orders</h2>
+</div>
      <br> <br>
-    
+     </div>
      <br>
      <br>
      
@@ -24,6 +28,7 @@
                
          </a>
       </div>
+      <div class="shadow-lg p-3 mb-5 bg-body rounded">
       <div class="col-sm-5">
        
                <div class="">
@@ -34,7 +39,7 @@
                <h4>Address: {{$item->address}}</h4>
              </div>
         
-     
+</div>
     
 
 </div>
@@ -51,3 +56,4 @@
     
 
 @endsection
+</div>

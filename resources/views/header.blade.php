@@ -16,7 +16,7 @@ if(Session::has('user'))
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a  href="/">
+       
         <img href="/" src="https://scontent.fdac13-1.fna.fbcdn.net/v/t1.6435-9/220439285_3023100564644226_1788858045719144565_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=730e14&_nc_eui2=AeHo9OvGKowP7HXAEYCmdklsmTFmhC6vEnaZMWaELq8SdiuPGfoQ_725TEkyBWu5pXtUHbeCxbUMqxmxI9VprLGT&_nc_ohc=7_zq0lEeD70AX861e-T&_nc_ht=scontent.fdac13-1.fna&oh=f5db5646b01efd3b1acabad2e590343f&oe=6124E392"  width="100" height="100" alt="ecolor">
         </a>
       </div>
@@ -26,8 +26,9 @@ if(Session::has('user'))
         <ul class="nav navbar-nav">
         <span class="icon-bar"></span>
         
-          <li ><a class="navbar-brand" href="/">Home</a></li>
-          <li><a class="navbar-brand" href="/myorders">Orders</a></li>
+        <a class="btn btn-" href="ordernow"></a> 
+          <li > <a class="navbar-brand"  href="/"><b>Home</b></a></li>
+          <li><a class="navbar-brand" href="/myorders"><b>Orders</b></a></li>
         </ul>
         <form action="/search" class="navbar-form navbar-left">
           <div class="form-group">

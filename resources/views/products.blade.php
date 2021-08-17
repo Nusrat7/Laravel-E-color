@@ -45,7 +45,11 @@
 
 
 <div class="trending-wrapper">
-  <h3> Trending products </h3>
+<div class="trending">
+  <h3   box-shadow: 10px 10px 5px grey> <b>Trending Products <b></h3>
+</div>
+<br>
+<br>
   @foreach($products as $item)
   <div class="trening-item">
   <a href="detail/{{$item['id']}}">

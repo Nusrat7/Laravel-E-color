@@ -10,9 +10,13 @@
 </div>
 <div class="col-sm-20">
      <div class="trending-wrapper">
+     <div class="trending">
      <h2> My Cart</h2>
      <br> <br>
-     <a class="btn btn-success" href="ordernow">Order Now </a> 
+</div>
+<br> <br> 
+<br> <br>
+     
      <br>
      <br>
      <br>
@@ -40,15 +44,18 @@
       <a class="btn btn-success" href="ordernow">Order Now </a> 
       </div>
     
-
+      
 </div>
 
       
    </div>
+   <a class="btn btn-" href="ordernow"></a> 
     @endforeach
+    <a class="btn btn-success" href="ordernow">Order Now </a> 
     </div>
+    
   </div>
-
+  
 </div>
 
     

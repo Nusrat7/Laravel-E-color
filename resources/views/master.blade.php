@@ -22,18 +22,21 @@
 <style>
     .login-page{
         color:black;
-        background-color: #EEF690!important;
+        background-color:#cc3300!important;
     }
     .panel-footer{
-        background-color: #E7F7AA !important;
+        background-color: #ffcc66!important;
+        color:black;
 
     }
     .foot{
-        background-color: #E7F7AA !important;
+        background-color: #cc3300 !important;
+        color:black;
 
     }
     .container-fluid{
-        background-color: #E7F7AA !important;
+        color:black;
+        background-color: #FF451E!important;
 
     }
     .custom-login{
@@ -44,10 +47,11 @@
         height: 400px !important
     }
     .custom-product{
-        height: 600px
+        height: 600px;
+        color:black;
     }
     .slider-text{
-        background-color: #EEF690 !important;
+        background-color: #cc3300 !important;
         color:black;
     }
     .trending-image{
@@ -59,6 +63,7 @@
     }
     .trending-wrapper{
         margin: 30px;
+        color:black;
     }
     .detail-img{
         height: 200px;
@@ -70,6 +75,14 @@
         border-bottom: 1px solid #ccc;
         margin-bottom: 20px;
         padding-bottom: 20px
+    }
+    .trending{
+        width: 300px;
+  height: 100px;
+  padding: 15px;
+  background-color:#DA5134;
+  box-shadow: 10px 10px grey;
+  color: black;
     }
   
 </style>
