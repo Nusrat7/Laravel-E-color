@@ -60,6 +60,15 @@
     .trening-item{
         float: left;
         width: 20%;
+        color:black;
+    }
+    .headername{
+        color:black;
+
+    }
+    .pname{
+        color:black;
+
     }
     .trending-wrapper{
         margin: 30px;

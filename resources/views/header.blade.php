@@ -26,9 +26,11 @@ if(Session::has('user'))
         <ul class="nav navbar-nav">
         <span class="icon-bar"></span>
         
-        <a class="btn btn-" href="ordernow"></a> 
+        
           <li > <a class="navbar-brand"  href="/"><b>Home</b></a></li>
+          
           <li><a class="navbar-brand" href="/myorders"><b>Orders</b></a></li>
+        
         </ul>
         <form action="/search" class="navbar-form navbar-left">
           <div class="form-group">

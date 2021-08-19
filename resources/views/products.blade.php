@@ -46,16 +46,23 @@
 
 <div class="trending-wrapper">
 <div class="trending">
+  
   <h3   box-shadow: 10px 10px 5px grey> <b>Trending Products <b></h3>
 </div>
 <br>
+<br>
+<br>
+<br> <br>
 <br>
   @foreach($products as $item)
   <div class="trening-item">
   <a href="detail/{{$item['id']}}">
       <img class="trending-image" src="{{$item['gallery']}}" >
       <div class="">
+      <div class="pname">
+
         <h3>{{$item['name']}}</h3>
+        </div>
         
       </div>
 </a>

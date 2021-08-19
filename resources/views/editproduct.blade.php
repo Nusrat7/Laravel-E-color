@@ -8,15 +8,15 @@
 <body>
 <div class="container">
 <h2 class="text-center"> Update data :</h2>
-   <form method="POST" action="/update/{{$posts->id}}">
+   <form method="POST" action="/update/{{$product->id}}">
    @csrf
      <div class="mb-3">
      <label >Product Name</label>
-     <input type="text" name="name " class="form-control" value={{$item->'name'}}><br>
+     <input type="text" name="name " class="form-control" value={{$product->name}}><br>
      </div>
      <div class="mb-3">
      <label> Product Price</label>
-     <input type="text" name="price" class="form-control" value={{$item->'price'}}><br>
+     <input type="text" name="price" class="form-control" value={{$product->price}}><br>
      </div>
      
      <input type="submit" name="update" value="Update" class="btn btn-primary"><br>

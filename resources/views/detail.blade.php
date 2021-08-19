@@ -7,11 +7,14 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-6">
+    <br> <br>
+    <br> <br>
+    <br> <br>
     <img class="detail-img" src="{{$products['gallery']}}" >
    
    </div>
    <div class="col-sm-6">
-   <a href="/">Go To HomePage </a>
+  
    <h2>{{$products['name']}}</h2>
    <h3>Price: {{$products['price']}}</h3>
    <h4>Detail: {{$products['description']}}</h4>
@@ -30,7 +33,10 @@
    <button class="btn btn-success">Buy Now</button>
 
    <button  class="btn btn-success">Chat Now</button>
-
+   <br> <br>
+   <br> <br>
+   <br> <br>
+   <br> <br>
    </div>
    </div>
    </div>
