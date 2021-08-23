@@ -7,11 +7,8 @@
 </head>
 <body>
 <div class="container">
-
-<br>
-<br> <br>
-<h2 class="text-center"> Update Data :</h2>
-   <form method="POST" action="/update/{{$product->id}}">
+<h2 class="text-center"> Update data :</h2>
+   <form method="POST" >
    @csrf
      <div class="mb-3">
      <label >Product Name</label>
@@ -20,14 +17,6 @@
      <div class="mb-3">
      <label> Product Price</label>
      <input type="text" name="price" class="form-control" value={{$product->price}}><br>
-     </div>
-     <div class="mb-3">
-     <label> Product description</label>
-     <input type="text" name="description" class="form-control" value={{$product->description}}><br>
-     </div>
-     <div class="mb-3">
-     <label> Product category</label>
-     <input type="text" name="category" class="form-control" value={{$product->category}}><br>
      </div>
      
      <input type="submit" name="update" value="Update" class="btn btn-primary"><br>

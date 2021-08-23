@@ -51,12 +51,14 @@
    </div>
    <a class="btn btn-" href="ordernow"></a> 
     @endforeach
-    <a class="btn btn-success" href="ordernow">Order Now </a> 
+    <!-- <a class="btn btn-success" href="ordernow">Order Now </a>  -->
     </div>
     
   </div>
   
 </div>
+</div>
+
 
     
     

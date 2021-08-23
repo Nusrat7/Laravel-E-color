@@ -9,7 +9,7 @@
     <div class="col-sm-4"> 
    
 </div>
-<div class="col-sm-20" style="background-color:#D8D8D0">
+<div class="col-sm-20" >
      <div class="trending-wrapper">
      <div class="shadow-lg p-3 mb-5 bg-body rounded">
      <div class="trending">

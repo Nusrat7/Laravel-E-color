@@ -8,10 +8,15 @@
 <body>
 <div class="container">
  <div class="jumbotron">
+ <br>
+      <br>
+      <br>   <br>   <br>   <br>
      <h3> Insert product:</h3>
+     <br>   <br> 
  <form action="{{ route('addimage')}}" method="POST" enctype="multipart/form-data">
  @csrf
     <div class="form-group">
+      
       <label>Product Name</label>
       <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Name">
      </div>
@@ -31,9 +36,12 @@
      </div>
 
      <div class="form-group">
+     <br>   
       <label class="custom-file-input">Product image</label>
       <input type="file" name="gallery" class="custom-file-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Product image">
      </div>
+     <br>   <br>  
+     <br>   <br> 
   <button type="submit" class="btn btn-primary">Save Data</button>
   </div>
 </form>

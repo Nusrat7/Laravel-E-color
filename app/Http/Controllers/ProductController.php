@@ -182,5 +182,12 @@ class ProductController extends Controller
         return redirect('/addproduct');
     }
 
+    function productshowadmin()
+    {
+        $data= product::all();
+       return view("productshowadmin",['products'=>$data]);
+       //return product::all();
+    }
+
 
 }

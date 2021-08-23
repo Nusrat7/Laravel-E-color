@@ -25,6 +25,8 @@ Route::view("/admin",'admin');
 Route::get("/addproduct",[ProductController::class,'inserTable']);
 Route::post("/addimage",[ProductController::class,'inserData'])->name('addimage');
 
+Route::get("/productshowadmin",[ProductController::class,'productshowadmin']);
+
 Route::get("/productshow",[ProductController::class,'show']);
 Route::get('delete/{id}',[ProductController::class,'destroy']);
 Route::get('edit/{id}',[ProductController::class,'edit']);

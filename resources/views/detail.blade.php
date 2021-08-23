@@ -14,6 +14,10 @@
    
    </div>
    <div class="col-sm-6">
+   <div class="trending">
+     <h2> Product Details</h2>
+     <br> <br>
+</div>
   
    <h2>{{$products['name']}}</h2>
    <h3>Price: {{$products['price']}}</h3>

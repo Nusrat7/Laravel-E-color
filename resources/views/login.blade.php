@@ -8,6 +8,11 @@
             <form action="login" method="POST" >
                 <div class="form-group">
                     @csrf
+                    <center>
+                <h2 > Login</h2>   </center>
+                <br>
+                <br>
+                
                 <label for="exampleInputEmail1">Email address</label>
                 <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                 </div>

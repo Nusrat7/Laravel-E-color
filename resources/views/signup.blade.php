@@ -9,6 +9,11 @@
             @csrf
 
             <div class="form-group">
+                <center>
+                <h2 > Signup</h2>   </center>
+                <br>
+                <br>
+                
                    
                 <label for="exampleInputEmail1">User name</label>
                 <input type="text" name="name" class="form-control" id="exampleInputEmail1" placeholder="User Name">
