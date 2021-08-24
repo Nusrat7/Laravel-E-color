@@ -5,9 +5,10 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 
-<body>
+<body style="background-color:LightGray;">
+<div class="mb-3">
 <div class="container">
- <div class="jumbotron">
+ <div class="jumbotron" >
  <br>
       <br>
       <br>   <br>   <br>   <br>
@@ -29,6 +30,12 @@
      <div class="form-group">
       <label>Product Category</label>
       <input type="text" name="category" class="form-control"  aria-describedby="emailHelp" placeholder="Product Category">
+      <!-- <select name="cars" id="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="opel">Opel</option>
+    <option value="audi">Audi</option>
+  </select> -->
      </div>
      <div class="form-group">
       <label for="exampleInputEmail1">Product description</label>
@@ -43,6 +50,7 @@
      <br>   <br>  
      <br>   <br> 
   <button type="submit" class="btn btn-primary">Save Data</button>
+  </div>
   </div>
 </form>
 </div>
